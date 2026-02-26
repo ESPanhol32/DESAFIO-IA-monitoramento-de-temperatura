@@ -6,14 +6,14 @@
 #include "driver/ledc.h"
 
 // ===== DEFINIÇÃO DOS PINOS =====
-#define LED_VENTILADOR 27
-#define LED_ESTADO0    14
-#define LED_ESTADO1    13
-#define LED_ESTADO2    12
+#define LED_VENTILADOR 13
+#define LED_ESTADO0    12
+#define LED_ESTADO1    14
+#define LED_ESTADO2    27
 #define BUZZER_GPIO    23
 
 // ===== CONFIG PWM =====
-#define BUZZER_FREQ     2000      // 2 kHz (som audível)
+#define BUZZER_FREQ     440     // 2 kHz (som audível)
 #define BUZZER_CHANNEL  LEDC_CHANNEL_0
 #define BUZZER_TIMER    LEDC_TIMER_0
 
